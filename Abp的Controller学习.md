@@ -6,7 +6,7 @@
 
 然后引用Abp.Web.Mvc。
 
-![1584601323644](C:\Users\WangJin\AppData\Roaming\Typora\typora-user-images\1584601323644.png)
+![1584601323644](D:\GitHub\AbpMvcController\1584601323644.png)
 
 然后修改Global.asax如下：
 
@@ -78,7 +78,7 @@ ABP提供了一个AbpController，相当于对对MVC的Controller的扩展。
 
 我们修改继承，项目依然可以启动运行，如下图：
 
-![1584603000445](C:\Users\WangJin\AppData\Roaming\Typora\typora-user-images\1584603000445.png)
+![1584603000445](D:\GitHub\AbpMvcController\1584603000445.png)
 
 编写一个AuthorizeAttribute，然后放到Controller上，测试断点AuthorizeAttribute的AuthorizeCore可以被断点命中，即授权特性还可以使用MVC的，不过ABP也提供了AbpMvcAuthorize和一系列ABP的授权模式。
 
